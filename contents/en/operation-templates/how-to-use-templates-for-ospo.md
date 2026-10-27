@@ -32,7 +32,7 @@ Organize customization topics into four pillars to ensure balanced coverage:
 - Establish the primary documentation gateway ([[Company Name] Open Source Guide](./about/opensource-guide.md))
 - Establish foundational guides ([About Open Source](./about/about-opensource.md) / [Benefits of Open Source](./about/benefits.md))
 - Document practical workflows ([Using Open Source](./using/using-oss.md) covering discovery, evaluation, license checks, and integration)
-- Discovery and inventory guides ([Finding Open Source Software](./using/finding-oss.md) / [Approved Internal OSS Inventory](./using/oss-inventory.md))
+- Discovery and inventory guides ([Finding Open Source Software](./using/finding-oss.md) / [Internal OSS Inventory](./using/oss-inventory.md))
 - Evaluation methodology ([Evaluating Open Source Software](./using/evaluation.md))
 - Licensing guides ([Open Source License Compliance](./compliance/license-compliance.md) / [What Is a License?](./compliance/what-is-a-license.md) / [Types of Licenses](./compliance/license-types.md))
 - Procurement workflows ([Procuring OSS from Suppliers](./using/supplier-procurement.md)) *High priority for organizations engaging contractors or joint development
@@ -54,7 +54,7 @@ Organize customization topics into four pillars to ensure balanced coverage:
 - Upstream contribution workflows
   - -> Implement when official business contributions begin (using blanket approvals to lower friction).
 - Personal open source activity guidelines
-  - -> Refine as employee personal open source engagement grows (focusing on NDAs, resources, and disclaimers).
+  - -> Refine as employee personal open source engagement grows (focusing on boundaries around confidentiality, use of company name/affiliation, and company resources).
 
 ## Designing Stakeholder Messaging
 

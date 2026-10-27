@@ -9,7 +9,7 @@ For OSPO Staff: How to Use This Template
 3. Refer to the customization guide at the end to expand content based on your company's context.
 
 This page provides an inventory of licenses and official text links.
-Specific interpretations and condition evaluations should be determined in consultation with Legal.
+Specific interpretations and condition evaluations should be determined based on the official license texts and in consultation with Legal.
 ########################################################################################
 -->
 
@@ -174,11 +174,12 @@ Guidance for expanding and refining content to match your company context follow
 
 Document internal track records and considerations for frequently used licenses in supplementary guides.
 Formulate license interpretations based on Legal advice.
-Highlight categories requiring heightened vigilance based on deployment models (SaaS vs. distribution).
+Make sure developers know which categories require particular attention given your deployment models (internal use, distribution, SaaS).
 
 ■ Expanding the Inventory
 
-Add non-OSD-compliant licenses (BSL, Elastic License, etc.) encountered in your ecosystem under a clear "Non-OSI Approved" label.
+Add licenses your company uses, or is likely to encounter in its ecosystem, as needed.
+When adding non-OSD-compliant licenses (BSL, Elastic License, etc.) for reference, mark them with a clear "Non-OSI Approved" label.
 
 ########################################################################################
 ########################################################################################

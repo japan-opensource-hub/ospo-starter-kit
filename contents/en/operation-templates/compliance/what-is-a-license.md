@@ -13,9 +13,9 @@ Expanding text according to the guide yields an even more practical document.
 ########################################################################################
 -->
 
-When hearing "open source software" (OSS), people often assume it can be used without restrictions. In reality, all OSS components carry licenses, and usage must strictly comply with their terms. This represents a critical aspect requiring careful management in enterprise environments.
+When hearing "open source software" (OSS), people often assume it can be used without restrictions. In reality, all OSS components carry licenses, and usage must comply with their terms. This represents a critical aspect requiring careful management in enterprise environments.
 
-This guide explains foundational open source licensing concepts, classifications, risk factors, and practical compliance workflows to empower actionable decision-making on engineering teams.
+This guide explains foundational open source licensing concepts, classifications, risk factors, and practical compliance workflows, with enough concrete detail for development teams to make day-to-day decisions.
 
 ## Why Licensing Matters
 
@@ -41,7 +41,7 @@ The Open Source Initiative (OSI) is the international body certifying open sourc
 ## Understanding and Achieving Compliance
 
 The first step in license compliance is explicitly defining your project's technical deployment model:
-Will software run strictly internally, undergo modification, link with other software, be distributed to customers in binary forms, or be offered as a cloud service over network APIs?
+Will software run strictly internally, undergo modification, link with other software, be distributed to customers, or be offered as a cloud service over the network?
 Ambiguity on deployment models yields opposite legal conclusions for the identical license.
 
 In enterprise contexts, "distribution" boundaries are frequently nuanced.
@@ -69,10 +69,10 @@ Open source licenses are categorized into five obligation tiers:
 | **Category 5: Source Code Disclosure for Network Service Users** | Triggers source code disclosure obligations upon delivering software as a network service (SaaS). | AGPL |
 
 **Note 1**: Category 4 requires source code disclosure only for parts reached by copyleft reciprocity.
-**Note 2**: Under Category 3 LGPL, proprietary application code does not require source disclosure, but developers must provide object code or build mechanisms enabling users to relink modified library binaries.
+**Note 2**: Under Category 3 LGPL, proprietary application code does not require source disclosure, but developers must provide object code or build mechanisms enabling users to relink modified library binaries. Under some licenses, provision of source code may also be required.
 
-Category 4 copyleft licenses (GPL) mandate disclosing source code for derivative and combined works, covering static linking and same-process dynamic linking.
-Category 5 licenses (AGPL) extend copyleft obligations to SaaS delivery, requiring heightened vigilance from cloud service providers.
+Category 4 licenses (GPL, etc.) require providing source code for the parts reached by license propagation; GPL in particular covers static linking and same-process dynamic linking, significantly impacting how usage models are designed.
+Category 5 licenses (AGPL) extend these obligations to SaaS delivery, requiring special caution from cloud service providers.
 Category 1 and 2 permissive licenses impose low compliance overhead and minimal review friction.
 
 When projects combine components under multiple licenses, verify license compatibility to ensure terms do not conflict.
@@ -106,7 +106,7 @@ License governance requires continuous oversight across software lifecycles.
 As dependency trees update, new capabilities merge, and deployment models evolve, compliance baselines shift.
 Conduct periodic audits to verify continuous alignment with licensing requirements.
 
-Large projects incorporating hundreds of dependencies require automated SCA tooling and standardized governance processes rather than manual tracking.
+Large projects can incorporate hundreds to thousands of open source components, requiring automated SCA tooling and standardized governance processes rather than manual tracking.
 
 ## Consult the OSPO When Uncertain
 
@@ -145,20 +145,30 @@ Guidance for expanding and refining content to match your company context follow
 
 ■ Content Strategy
 
-Focus body text on core principles and migrate edge cases to the FAQ to keep documentation scannable and practical.
-Frame compliance as an enabler for confident open source adoption rather than a restrictive barrier.
+Focus body text on the points everyone should understand, and migrate details to the FAQ.
+Keep the reader's burden low: start by providing a minimal set of documentation, then build out examples and FAQs incrementally.
+Remember that the purpose of license management is not "restriction" but "creating an environment where open source can be used with confidence."
 
 ■ Integration with Internal Workflows
 
-Integrate existing Legal and IP consultation channels into compliance workflows.
+Integrate existing IP department contacts and precedent review processes into the body text.
+Compile past license inquiries and incidents — researching and organizing questions previously received by the Legal and IP departments makes the guide considerably more practical.
 
 ■ Documenting Corporate Stances
 
-Publish clear corporate positions on ambiguous licensing terms alongside concrete examples to guide developer decision-making.
+Document your company's positions on license interpretation alongside concrete examples.
+Where a topic involves unavoidable nuance, it is acceptable to keep the description abstract — in that case, make sure your processes guide readers to a decision.
+Leverage external examples from industry peers and similar business models.
+
+■ Reinforcing License Reading Guidance
+
+Identify the license types your company should watch closely and add detailed explanations for them.
+For licenses requiring particular caution, include concrete examples and link to trusted external commentary.
 
 ■ Defining Tooling and Audits
 
-Specify official SCA tools, audit cadences, and escalation protocols to build an operational compliance framework.
+Specify the tools used for license management, and clarify management processes and role assignments.
+Set audit cadences and establish escalation pathways to build an operational compliance framework.
 
 ########################################################################################
 ########################################################################################

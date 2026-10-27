@@ -9,7 +9,7 @@ The principal terms used in this Policy are defined as follows:
 2. "OSPO" is an abbreviation for Open Source Program Office, referring to the organization prescribed in Article 4.
 3. "OSS Project" refers to activities involving the development, maintenance, and management of OSS. Operations are conducted by individuals, organizations, or communities.
 4. "Contribution" refers to the act of providing source code, documentation, or other deliverables to an OSS Project.
-[5. "CLA" is an abbreviation for Contributor License Agreement, referring to a contract defining rights ownership and licensing conditions for deliverables submitted through contributions.]
+【5. "CLA" is an abbreviation for Contributor License Agreement, referring to a contract defining rights ownership and licensing conditions for deliverables submitted through contributions.】
 6. "Third-Party Works" refers to copyrighted works owned by parties other than the Company.
 
 ## Commentary

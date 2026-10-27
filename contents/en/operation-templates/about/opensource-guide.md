@@ -13,12 +13,12 @@ Expanding text according to the guide yields an even more practical document.
 ########################################################################################
 -->
 
-This document was created to promote the strategic adoption of open source software at [Company Name] and ensure appropriate, effective utilization.
+This document was created to promote the use of open source software at [Company Name] and to enable appropriate, effective utilization.
 In modern software engineering, open source is not merely an option—it forms the core foundation for innovation and business growth.
 
 Open source software delivers immense corporate benefits, including accelerated development velocity, transformed cost structures, faster technology innovation, employee professional growth, and top talent acquisition.
-However, usage entails critical considerations: license compliance, preventing IP contamination, handling software defects, and mitigating security vulnerabilities.
-Through robust compliance management and open source community engagement, organizations effectively control these risks while maximizing open source value.
+However, usage entails important considerations: complying with licenses, preventing the inclusion of code that would infringe third-party rights, handling quality defects, and addressing security vulnerabilities.
+With appropriate compliance management and an understanding of open source communities, organizations can control these challenges effectively and make the most of the value open source offers.
 
 This guide systematically organizes open source topics—from foundational concepts to practical workflows.
 It provides actionable guidance for developers, product managers, technical leaders, and stakeholders across open source workflows.
@@ -56,17 +56,20 @@ Guidance for expanding and refining content to match your company context follow
 This document serves as the primary entry point for internal open source adoption.
 While subsequent pages detail open source concepts and benefits, this landing page must clearly articulate "Why our company engages in open source."
 
-■ Articulating Corporate Strategy
+■ Articulating the Reasons and the Policy
 
-Summarize executive-approved strategic reasons for open source adoption to strengthen internal momentum.
+Organize the strategic reasons the company engages with open source and reflect them in this document.
+Stating a policy that has executive approval strengthens internal momentum.
 
 ■ Encouraging Feedback
 
-Establish easy feedback channels for employee questions and suggestions to drive continuous document improvement.
+Encourage a mechanism that lets employees raise suggestions and questions easily, so a continuous improvement cycle can run.
+Collect feedback actively and grow this into a guide that is both practical and well suited to the company.
 
-■ Phased Release Strategy
+■ Phased Release
 
-Release working drafts early rather than delaying for perfection; refine content through operational feedback.
+Rather than spending a long time aiming for a complete version, it is more productive to release internally even in an unfinished state and let actual operation reveal gaps and issues.
+Reflect questions and additional requirements that emerge during operation into the documentation and FAQs as you go.
 
 ■ Clarifying the OSPO Role
 

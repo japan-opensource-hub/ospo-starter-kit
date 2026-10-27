@@ -13,10 +13,10 @@ Expanding text according to the guide yields an even more practical document.
 ########################################################################################
 -->
 
-Among open source licenses, those imposing source code disclosure obligations require heightened vigilance.
+Among open source licenses, those imposing source code disclosure obligations require special caution.
 While general concepts are covered in **[What Is a License?](../compliance/what-is-a-license.md)**, this document details the specific characteristics of source disclosure licenses and their business impacts.
 
-## Why These Licenses Require Heightened Vigilance
+## Why These Licenses Require Special Caution
 
 Licenses with source code disclosure obligations (copyleft licenses) are designed to preserve software freedom permanently.
 
@@ -55,7 +55,7 @@ Copyleft reciprocity varies by license family and technical coupling:
 Static or dynamic linking combines application components into a single derivative work, extending GPL terms across the combined work.
 
 **Weak / Component Copyleft (LGPL)**
-Requires disclosing source code for the LGPL library itself, alongside providing object code or build scripts allowing users to relink modified libraries. Proprietary application source code linking to unmodified LGPL libraries remains private, though LGPL compliance obligations still apply.
+Requires disclosing source code for the LGPL library itself, alongside providing object code or similar mechanisms allowing users to relink modified libraries. Proprietary application source code remains private; note, however, that these provision obligations arise even when the LGPL library itself is not modified.
 
 For detailed license descriptions, see **[Types of Licenses](../compliance/license-types.md)**.
 
@@ -120,16 +120,31 @@ Guidance for expanding and refining content to match your company context follow
 
 ■ Formulating Corporate Stances
 
-Avoid blanket bans on copyleft software; instead, establish clear corporate interpretations.
-Work with Legal to define internal boundaries for derivative works, distribution, and AGPL usage in SaaS.
+Because misuse of licenses with source code disclosure obligations has large impacts, establish a clear corporate policy.
+Avoid blanket bans that simply prohibit their use; instead, build a shared internal understanding based on correct knowledge.
+Work with Legal to establish internal interpretation criteria for "derivative works" and "combination," and formulate the scope of source code provision and classification standards for what can and cannot be provided.
+Researching similar past cases and questions received by the Legal department, and coordinating with them, is also effective.
 
-■ Coupling Methods and Copyleft Scope
+■ Defining Distribution
 
-Provide clear architectural mapping tables illustrating how dynamic linking, static linking, microservices, and IPC interact with copyleft licenses.
+Clarify the internal definition of "distribution" — considering concrete scenarios such as whether transfers to subsidiaries, affiliates, and partner companies are included.
+Also establish a policy for AGPL usage in SaaS businesses: because AGPL triggers source code provision obligations even for services delivered over a network, clear guidelines are needed.
+
+■ Coupling Methods and License Impact
+
+Provide mapping tables linking technical coupling methods (static linking, dynamic linking, etc.) to license impact.
+Develop guidelines for development teams choosing coupling methods, and consider incorporating license considerations into architecture reviews.
+
+■ Per-License Guidance
+
+For detailed explanations and interpretations of individual licenses, link to trusted external commentary as needed.
+Creating a license-by-license usability matrix, and researching and sharing how industry peers handle similar licenses, is also recommended.
 
 ■ Process Integration
 
-Empower development teams to evaluate copyleft software autonomously through clear decision trees, reserving OSPO consultations for complex edge cases.
+Publish guidelines that let development teams evaluate software under these licenses autonomously.
+Consider policies for SCA tool usage and provide developer training on license evaluation.
+Establish a consultation flow to the OSPO for uncertain cases — the OSPO exists to support development teams' decisions, not to make decisions on their behalf.
 
 ########################################################################################
 ########################################################################################

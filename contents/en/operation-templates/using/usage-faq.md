@@ -31,7 +31,8 @@ Adopt and implement items incrementally based on organizational goals and priori
 
 - [ ] Collected and added common internal usage questions.
 - [ ] Documented internal case studies and relevant legal precedents.
-- [ ] Established directory guidelines for managing case studies as ticket volume grows.
+- [ ] Established directory guidelines for managing case studies separately as cases accumulate.
+- [ ] Kept the content concise, avoiding duplication with the rest of the documentation.
 
 <!--
 ########################################################################################
@@ -42,10 +43,20 @@ Guidance for expanding and refining content to match your company context follow
 
 ■ FAQ Operational Policy
 
-Focus on conciseness and clarity so developers locate answers quickly:
- * Summarize complex edge cases and detailed case studies in the FAQ.
- * Include initial case studies directly in the FAQ; migrate to dedicated case-study directories as volume expands.
- * Extract common inquiry themes from OSPO consultations to expand the FAQ continuously.
+Discussions about using open source cover a very wide range of topics.
+Capturing everything in documentation is impractical, and long, heavy documents tend to go unread — so aim for a concise, high-quality document.
+
+Key practices:
+ * Consolidate fine-grained points, important notes, and detailed cases that did not fit elsewhere into the FAQ.
+ * Where you have cases, record them in the FAQ during the early stages.
+ * Once internal cases and external legal precedents accumulate, create a separate directory and manage each case individually.
+
+■ Approaches to Growing the FAQ
+
+Use the following approaches as a reference for building out the FAQ:
+ * Extract frequently recurring themes from OSPO consultations and turn them into FAQ entries.
+ * Collect open questions through developer surveys.
+ * Add entries drawing on publicly available cases from other companies and legal precedents.
 
 ########################################################################################
 ########################################################################################

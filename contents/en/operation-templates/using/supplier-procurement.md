@@ -36,8 +36,8 @@ Establish and record mutual agreement with suppliers on the following items prio
 
 **Scope of Permitted Usage**
 
-While permitting supplier OSS usage, establish pre-use notification requirements as a baseline.
-Tier review requirements by license risk—permissive licenses (MIT, BSD) require streamlined checks, whereas copyleft licenses (GPL, AGPL) demand rigorous evaluation regarding architectural impacts on proprietary codebases.
+We recommend permitting suppliers to use OSS while making prior verification of the OSS they use the baseline expectation.
+On that basis, it is easier to operate if you set review criteria by license type: OSS under licenses with few obligations (MIT, BSD, etc.) has relatively limited verification requirements, whereas OSS under licenses with source code disclosure obligations (GPL, AGPL, etc.) calls for careful evaluation of the impact on your own products.
 
 For license details, see [What Is a License?](../compliance/what-is-a-license.md) and [Licenses with Source Code Disclosure Obligations](../compliance/source-disclosure-licenses.md).
 
@@ -45,9 +45,9 @@ For license details, see [What Is a License?](../compliance/what-is-a-license.md
 
 Define approval workflows for suppliers adopting new OSS components:
 
-- **Early Notification**: Mandate that suppliers disclose proposed OSS components prior to development.
-- **Clear Criteria**: Provide explicit guidelines detailing restricted license terms and security standards.
-- **Reference Catalog Sharing**: Share approved internal OSS inventories as reference guidelines. Note that because license implications depend on specific deployment contexts, suppliers remain responsible for conducting independent compliance reviews.
+- **Early Consultation**: Set up a mechanism for suppliers to consult with you about OSS they are considering, before development begins.
+- **Stated Criteria**: Clarify, as far as practical, which conditions require attention and what perspectives inform the decision.
+- **Sharing the Internal OSS Inventory for Reference**: If you maintain an inventory of OSS already evaluated and adopted internally, you can share it as reference information. Note that usage conditions change with the business use case and with combinations of other software, so suppliers still need to perform their own case-by-case verification.
 
 ### OSS Inventory Submission Requirements
 
@@ -94,29 +94,30 @@ Define required formats for clearance deliverables—such as automated SCA scan 
 Define security scanning requirements for supplier deliverables:
 
 - **Scanning Cadence**: Require scans during development and prior to final delivery.
-- **Severity Thresholds**: Prohibit unmitigated Critical/High vulnerabilities; require formal risk reviews for Medium issues.
-- **Remediation SLA**: Define remediation expectations (patching, workarounds, component replacement).
+- **Acceptable Severity Levels**: For example, Critical/High vulnerabilities are not acceptable; Medium and below require consultation.
+- **Remediation Policy**: Define how discovered vulnerabilities are to be handled (patching, workarounds, switching to alternative OSS).
 
 For details, see the security evaluation section in [Evaluating Open Source Software](../using/evaluation.md).
 
 **Post-Delivery Vulnerability Response**
 
-Establish post-delivery vulnerability protocols in supplier contracts:
+It is important to agree in advance on how vulnerabilities discovered after delivery will be handled:
 
-- Mandatory security update provisions during maintenance windows.
-- Emergency notification SLA for newly disclosed Critical vulnerabilities.
-- Standard response SLAs for patch delivery.
+- The obligation to provide security updates during the maintenance period.
+- The communication channels to use when a serious vulnerability is found.
+- The standard timeframe within which updates will be provided.
 
 ### Contractual Provisions
 
 **Legal Terms**
 
-Collaborate with Legal to incorporate open source terms into procurement contracts:
+Legal arrangements concerning OSS usage require careful consideration in coordination with Legal.
+The following are examples of items commonly considered; always obtain Legal's confirmation on what is actually written into the contract:
 
-- Liability and indemnification for licensing non-compliance.
-- Intellectual property warranty coverage for embedded open source components.
-- Warranty scopes and disclaimers for open source software.
-- Remedies and source code delivery obligations triggered by copyleft terms.
+- Responsibility and response if non-compliance with license conditions comes to light.
+- Handling of intellectual property issues arising from OSS included in deliverables.
+- The scope of warranties and disclaimers concerning OSS usage.
+- Handling of cases where a source code provision obligation arises.
 
 ## Post-Delivery Verification Workflows
 
@@ -164,29 +165,29 @@ For details, see [What Is a License?](../compliance/what-is-a-license.md) and [L
 
 Categorize identified non-compliance issues by severity to drive appropriate response workflows:
 
-**Critical Issues (Immediate Escalation & Blockers)**
+**Critical Issues (Immediate Response Required)**
 
-- Copyleft software deployed in non-compliant architectures without fulfilling source disclosure terms.
-- Unmitigated Critical/High security vulnerabilities.
-- Material licensing non-compliance.
-- Massive unapproved OSS additions.
+- OSS under a license with source code disclosure obligations is used improperly, without those obligations being met.
+- Critical/High severity vulnerabilities are present.
+- The deliverable is not in compliance with license conditions.
+- A large volume of undeclared OSS is included.
 
-**Minor Issues (Remediated via Technical Alignment)**
+**Minor Issues (Resolvable Through Discussion and Adjustment)**
 
-- Minor inventory typos or omitted metadata.
-- Low/Medium vulnerability findings.
-- Incomplete modification documentation.
+- Omissions or errors in the OSS inventory.
+- Vulnerabilities at Medium severity or below.
+- Insufficient documentation of modifications.
 
 **Executing Remediation**
 
 Execute remediation based on issue severity:
 
-- **Issue Notification**: Issue formal remediation requests detailing non-compliance findings.
-- **Mandatory Remediation**: Require suppliers to replace components, patch vulnerabilities, or supply missing notices within set SLAs.
-- **Alternative Evaluation**: Discuss architectural refactoring if component replacement is infeasible.
-- **Final Acceptance**: Re-audit deliverables post-remediation prior to formal acceptance.
+- **Notifying the Supplier and Requesting an Explanation**: Communicate the issue clearly and ask the supplier to explain the situation.
+- **Requesting Corrective Action**: Present the specific corrections required (replacing the OSS, fixing vulnerabilities, completing license information, etc.) along with a deadline.
+- **Considering Alternatives**: Where correction is difficult, discuss switching to alternative OSS or changing how it is used.
+- **Acceptance Decision**: Confirm that corrective actions have been carried out, then decide whether to accept the deliverable.
 
-Escalate critical non-compliance issues to Legal and executive leadership immediately.
+Critical issues require escalation to Legal and, in some cases, executive management.
 
 ## When to Consult the OSPO
 
@@ -217,7 +218,7 @@ Adopt and implement items incrementally based on organizational goals and priori
 
 ## Customization Checklist
 
-- [ ] Defined sharing scope for supplier-facing approved OSS catalogs.
+- [ ] Decided the scope of the internal OSS inventory to be shared with suppliers.
 - [ ] Standardized OSS inventory submission formats (Excel, CSV, SPDX, CycloneDX).
 - [ ] Established Legal-approved contract clause guidelines for OSS procurement.
 - [ ] Defined severity tiers and decision-making authority for procurement non-compliance.
@@ -231,17 +232,50 @@ Customization Guide
 Guidance for expanding and refining content to match your company context following placeholder replacement.
 ########################################################################################
 
-■ Standardizing Inventory Submission Formats
+■ Providing an OSS Inventory to Suppliers
 
-Adopting standard Software Bill of Materials (SBOM) formats (SPDX, CycloneDX) streamlines post-delivery analysis. Use spreadsheet formats (Excel/CSV) if automated SBOM pipelines are not yet established.
+Consider the following when sharing an inventory of already-adopted OSS with suppliers:
+ * Set the scope of the inventory appropriately (all OSS, or only certain categories).
+ * Establish the update frequency and the maintenance structure.
+ * Clarify the procedure for when a supplier wants to use OSS that is not on the inventory.
+
+In the early stages, a realistic approach is to list only major OSS and expand in stages.
+
+■ Standardizing the Inventory Submission Format
+
+Standardizing the submission format makes post-delivery analysis more efficient:
+ * Consider adopting standard Software Bill of Materials (SBOM) formats (SPDX, CycloneDX, etc.).
+ * If you are not yet ready to manage standard SBOM formats, consider collecting the information in Excel/CSV form.
+
+Also consider adjusting the level of detail you request based on the supplier's technical maturity and size.
 
 ■ Contract Clause Guidelines
 
-Work with Legal to establish contract review workflows and boilerplate open source clauses for supplier contracts. Include explicit disclaimers that template clauses require Legal review before execution.
+Because these involve company-specific legal risk, we recommend keeping this to general guidance:
+ * Establish a contract review process in coordination with Legal.
+ * Maintain internal guidelines on OSS-related contract clauses.
+ * Document cautionary points based on past issues.
 
-■ Procurement Incident Response
+If you provide template contract language, state clearly that it is illustrative and requires Legal's confirmation.
+For legally binding documents, avoid decisions by the OSPO alone and always involve Legal.
 
-Define decision-making authority for procurement non-compliance, prepare communication templates, and establish standard SLAs for supplier remediation.
+■ Establishing the Issue Response Process
+
+Aligning with internal decision-making processes is essential:
+ * Define severity levels for issues and who has decision authority at each level.
+ * Prepare communication templates for suppliers.
+ * Set standard correction periods according to the type of issue.
+ * Establish escalation paths and contacts.
+
+Accumulating past issues and how they were handled, and using them as a knowledge base, makes future responses more efficient.
+
+■ Maturing the Process in Stages
+
+Throughout this guide, we recommend continuously improving the following:
+ * Start with basic requirements and add detail gradually through actual operation.
+ * Collect feedback from suppliers to improve feasibility.
+ * Document both successes and failures to promote organizational learning.
+ * Set realistic requirements that account for the supplier's situation, rather than making one-sided demands.
 
 ########################################################################################
 ########################################################################################

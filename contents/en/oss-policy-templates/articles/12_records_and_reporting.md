@@ -5,9 +5,9 @@
 Article 12. Records and Reporting
 
 1. The OSPO shall create and retain records concerning the following matters for an appropriate period:
-  a. Inventory of OSS used [and released] by the Company, licenses, [release status], and major history
+  a. Inventory of OSS used 【and released】 by the Company, licenses, 【release status】, and major history
   b. Key OSS usage status and license evaluation results
-  [c. Key agreements concerning CLA executions, copyrights, and patents]
+  【c. Key agreements concerning CLA executions, copyrights, and patents】
   d. Summary of license violations, incidents, and corrective measures
 2. The OSPO shall report on Company OSS activities and risk posture to executive management at least once a year.
 

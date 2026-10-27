@@ -9,7 +9,7 @@ This document serves as a starting draft; customize and adapt it to align with y
 
 Each article consists of the following three sections:
 
-- **Sample Article**: Draft text of the article. Structured hierarchically: Article -> Paragraph -> Sub-item (a, b, c...). Use this wording as a baseline for your customized policy. Note: If your policy focuses solely on OSS usage (excluding contributions/releases), you can omit bracketed text marked with `【 】`.
+- **Sample Article**: Draft text of the article. Structured hierarchically: Article -> Paragraph -> Sub-item (a, b, c...). Use this wording as a baseline for your customized policy. Note: If your policy focuses solely on OSS usage (excluding contributions/releases), you can omit the optional text enclosed in `【 】`. Square brackets such as "[Company Name]" indicate placeholders to be replaced with your own information — they are not optional text.
 - **Commentary**: Explains the purpose, background, and risk management rationale behind the article. Use this section when presenting justification to executive management or key stakeholders.
 - **Customization Perspectives and Operational Notes**: Provides actionable insights for tailoring the policy to your company's scale, business model, and existing rules. Contains tips on items to add, remove, or consolidate.
 

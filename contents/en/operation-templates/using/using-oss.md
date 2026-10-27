@@ -25,9 +25,9 @@ Adopting open source effectively requires a structured, phased approach:
 
 1. Discovery and Selection
 
-    When planning new open source adoption, check the [Approved Internal OSS Inventory](../using/oss-inventory.md) first.
-    This catalog lists software pre-assessed for license compatibility, security posture, technical quality, community health, and long-term viability.
-    Selecting pre-approved components significantly reduces lead time and operational risk. Note that if your proposed usage differs from previous approvals, re-verifying license compatibility is required.
+    When planning new open source adoption, check the [Internal OSS Inventory](../using/oss-inventory.md) first.
+    This catalog lists software already assessed for license compatibility, security posture, technical quality, community health, and long-term viability.
+    Selecting pre-assessed components significantly reduces lead time and operational risk. Note that if your proposed usage differs from previous approvals, re-verifying license compatibility is required.
 
     If suitable software is not listed, follow [Finding Open Source Software](../using/finding-oss.md) to discover candidates matching project requirements, leveraging GitHub search techniques, trusted indexes, and screening protocols.
 
@@ -55,7 +55,7 @@ Adopting open source effectively requires a structured, phased approach:
 
     Following license clearance, proceed with technical integration using security best practices—downloading from official registries, verifying hashes, and scanning for vulnerabilities.
 
-    Register adopted open source components in the internal component catalog ([Approved Internal OSS Inventory](../using/oss-inventory.md)) to streamline license tracking, security monitoring, and dependency management.
+    Register adopted open source components in the internal component catalog ([Internal OSS Inventory](../using/oss-inventory.md)) to streamline license tracking, security monitoring, and dependency management.
 
 ## Importance of License Compliance
 
@@ -67,11 +67,11 @@ Licensing non-compliance creates legal risks while threatening project schedules
 
 Open source licenses fall into tiers based on obligation scopes:
 
-**Permissive Licenses (MIT, BSD, Apache-2.0)**
-Impose minimal obligations, primarily retaining copyright notices and license text without requiring source code disclosure.
+**Licenses with Few Obligations (MIT, BSD, etc.)**
+Impose relatively few obligations with limited verification requirements — primarily retaining copyright notices and license text, without requiring source code disclosure.
 
 **Licenses with Source Code Disclosure Obligations (GPL, AGPL)**
-Enforce copyleft reciprocity on derivative works, directly shaping architecture. Certain licenses (AGPL) trigger source disclosure obligations upon network service delivery, demanding vigilance in SaaS environments.
+Enforce copyleft reciprocity on derivative works, directly shaping architecture. Certain licenses (AGPL) trigger source disclosure obligations upon network service delivery, requiring particular care in SaaS environments.
 
 **Component-Level Source Disclosure Licenses (LGPL, MPL)**
 Occupy a middle ground, relaxing copyleft disclosure obligations across dynamic linking or module boundaries.
@@ -95,14 +95,14 @@ For details, see the security evaluation section in [Evaluating Open Source Soft
 
 ## When to Consult the OSPO
 
-Consult the OSPO prior to integration when encountering the following scenarios:
+If a decision is difficult to make within your project in the following scenarios, consult the OSPO before proceeding:
 
-- **Licenses with complex compliance terms** (source code disclosure obligations, copyleft terms, mandatory attribution propagation).
+- **Licenses with terms that require verification based on your usage model** (e.g., source code disclosure obligations, distribution under the same license, attaching copyright notices and license texts).
 - **Components potentially requiring commercial licensing**.
 - **Security vulnerabilities requiring specialized risk review** (consult Security).
-- **Adopting software not listed on the Approved Internal OSS Inventory**.
+- **Adopting software not listed on the Internal OSS Inventory**.
 
-If your project team possesses strong open source expertise, you may execute evaluations autonomously. (*The OSPO exists to empower project decision-making, not to act as a bottleneck proxy.*)
+If your project team possesses strong open source expertise, you may execute evaluations autonomously. (*The OSPO exists to support project decision-making, not to make decisions on projects' behalf.*)
 
 ### Consultation Checklist
 
@@ -129,7 +129,7 @@ Adopt and implement items incrementally based on organizational goals and priori
 
 ## Customization Checklist
 
-- [ ] Specified location and governance policy for the Approved Internal OSS Inventory.
+- [ ] Specified location and governance policy for the Internal OSS Inventory.
 - [ ] Documented integration procedures with existing approval workflows and CI/CD chains.
 - [ ] Created and linked OSPO consultation intake templates/forms.
 - [ ] Clarified emergency escalation pathways and security contacts.
@@ -142,18 +142,25 @@ Customization Guide
 Guidance for expanding and refining content to match your company context following placeholder replacement.
 ########################################################################################
 
-■ Managing Approved Internal Inventories
+■ Managing the Internal OSS Inventory
 
-Maintaining an approved internal OSS list requires continuous OSPO commitment to update records, handle developer inquiries, and maintain catalog criteria transparently.
-Balance catalog governance against the risk of creating a misconception that "unlisted OSS cannot be used." Most enterprises encourage autonomous team selection while reserving OSPO consultations for high-risk licenses.
+Publishing an internal OSS inventory means the OSPO commits to continuously updating records, collecting and responding to user feedback, and keeping listing criteria and processes transparent.
+Providing the inventory helps promote OSS usage and manage risk, but it also increases the OSPO's workload and risks creating a misconception that "unlisted OSS cannot be used." In many companies, the common approach is to encourage teams to select OSS on their own judgment and consult the OSPO as needed. Consider the right balance for your organization.
 
 ■ Aligning with Existing Engineering Workflows
 
-Integrate open source governance into established toolchains, CI/CD pipelines, and escalation paths.
+Integrate open source governance into established approval workflows and toolchains, establish escalation paths for emergencies and exceptions, and consider providing concrete tool instructions and templates.
 
 ■ Streamlining Consultations
 
-Foster a culture where early consultation is seen as a risk mitigation enabler rather than a development blocker. Provide clear consultation forms, robust FAQs, and SLA targets to empower autonomous developer decision-making over time.
+Foster a culture where consultation feels easy: share the understanding across the organization that "early consultation avoids risk" rather than "consultation delays development."
+Note that the OSPO's goal is not to make every decision, but to help development teams build the capability to decide autonomously — so invest in education and guidelines alongside the consultation process.
+
+Practical measures:
+ * Provide consultation templates and intake forms.
+ * Build out FAQs for common questions (directly reduces consultation volume).
+ * Publish standard turnaround times from consultation to response.
+ * Consider a tiered approach: delegate licenses with few obligations to development teams, and recommend OSPO consultation only for licenses with extensive verification requirements.
 
 ########################################################################################
 ########################################################################################
