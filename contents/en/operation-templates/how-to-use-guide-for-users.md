@@ -1,4 +1,4 @@
-# How to Use This Guide (For End Users)
+# How to Use This Guide (For Internal Users)
 
 ## Start Here
 
@@ -25,7 +25,7 @@
 
 - Can existing OSS solve your problem?
 - Where to search?
-- [Approved Internal OSS Inventory](./using/oss-inventory.md) / Recommended OSS:
+- [Internal OSS Inventory](./using/oss-inventory.md) / Recommended OSS:
   - -> [Finding Open Source Software](./using/finding-oss.md)
 
 ## Evaluating Open Source Software
@@ -59,7 +59,7 @@
 
 - In-house development
 - Vendor deliverables
-- Contracting requirements for outsourced or joint development (OSS disclosure lists, SBOMs, remediation SLAs)
+- Contracting requirements for outsourced or joint development (OSS list submission, SBOMs, remediation, etc.)
 - Logging utilized OSS metadata (inventories, evaluation logs, approval decisions)
 - Purchasing commercial products, SDKs, or middleware containing embedded OSS for product integration:
   - Confirm whether procured deliverables contain OSS (subject to OSS disclosure requests)
@@ -81,7 +81,7 @@
 
 - Fulfilling source code requests (intake channels, fulfillment procedures, source bundle packaging)
 - Vulnerability and bug management (impact analysis -> mitigation/patching -> customer notifications -> post-mortems)
-- Remediating post-release OSS discoveries or license issues (over-the-air updates, advisories)
+- Remediating post-release OSS discoveries or license issues (updates and notifications as needed)
 - Continuous dependency and SBOM maintenance
 
 ## Troubleshooting & Consultations

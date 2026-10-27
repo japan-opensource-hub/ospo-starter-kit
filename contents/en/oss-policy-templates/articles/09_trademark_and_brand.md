@@ -8,7 +8,7 @@ Article 9. Handling of Trademarks and Branding
 
 ## Commentary
 
-Misuse of company names or logos creates false impressions of official endorsement, impacting corporate trust. Because OSS activities are public, trademark management for internal OSS influences community governance and brand integrity. Trademark governance involves Legal, PR, and IP teams alongside Engineering, making explicit inclusion in policy essential.
+Misuse of company names or logos creates false impressions of official endorsement, impacting corporate trust. Because OSS activities are broadly public and directly affect reputation, the trademark strategy for the Company's own OSS influences both community governance and brand integrity. Trademark governance involves Legal, PR, and IP teams alongside Engineering, making explicit inclusion in policy essential.
 
 ## Customization Perspectives and Operational Notes
 

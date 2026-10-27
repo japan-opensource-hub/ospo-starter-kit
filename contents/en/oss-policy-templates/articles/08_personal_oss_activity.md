@@ -8,7 +8,7 @@ Article 8. Employees' Personal OSS Activities
 
 ## Commentary
 
-Personal OSS activity benefits companies through skill development and community networking, but requires boundaries to prevent leakage of confidential assets, corporate credit, or company resources. Open source communities disseminate information quickly, making recovery after a leak difficult. Confidentiality obligations remain legally binding during personal time; departure or career transition periods carry heightened risks of unintentional leakage. Using company equipment or work hours creates labor, cost, and IP ownership issues, while unauthorized use of corporate names/trademarks risks misrepresentation as official views. Balanced rules guide safe engagement rather than total prohibition.
+Personal OSS activity benefits companies through skill development and community networking, but requires boundaries that protect confidential information, corporate trust, and company resources. Open source communities disseminate information quickly, making recovery after a leak difficult. Confidentiality obligations remain legally binding during personal time; departure or career transition periods carry heightened risks of unintentional leakage. Using company equipment or work hours creates labor, cost, and IP ownership issues, while unauthorized use of corporate names/trademarks risks misrepresentation as official views. Balanced rules guide safe engagement rather than total prohibition.
 
 ## Customization Perspectives and Operational Notes
 

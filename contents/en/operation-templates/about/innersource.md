@@ -67,12 +67,12 @@ Adopting these four core open source cultural values internally is essential for
    Developers inspect and learn from code written by other teams, spurring cross-pollination of knowledge and elevating skill levels across the company.
 
 2. **Transparency**
-   Beyond code, decision-making processes and discussions are conducted openly.
-   Transparent governance enables external developers to participate easily, transforming software into a shared organizational asset.
+   Not only the code but the discussion process is open, making it visible how decisions were reached.
+   This lets developers from other teams participate easily, and the project comes to be recognized as a shared asset of the whole organization.
 
 3. **Prioritized Mentorship**
-    Maintainers prioritize support for guest contributors to lower friction for new developers.
-    Active mentorship encourages continuous incoming contributions across organizational boundaries.
+    Priority support is provided so that new developers can join easily.
+    Following up on guest teams' contributions and lowering the barrier to entry keeps new contributions flowing into the project.
 
 4. **Voluntary Code Contribution**
     Contributions to projects are never forced.
@@ -82,10 +82,10 @@ Adopting these four core open source cultural values internally is essential for
 
 To build a healthy open source culture, avoid these common misconceptions. Cultivating proper understanding directly underpins open source success:
 
-1. **Personal Hobbies**
-   InnerSource is not an unstructured activity for personal amusement.
-   It does not mean writing code based solely on personal interest; projects must serve broader organizational needs.
-   Sharing and collaboration aim to maximize enterprise value.
+1. **Activities for Personal Purposes**
+   InnerSource is not an activity pursued for personal purposes.
+   That is, it does not mean writing code based solely on an individual's interests; it should respond to the needs of the organization as a whole.
+   Sharing and collaboration should be aimed at increasing value for the whole organization.
 
 2. **Individual Ownership**
     Deliverables are not individual property.
@@ -107,9 +107,11 @@ To build a healthy open source culture, avoid these common misconceptions. Culti
 > **Caution: Cross-Organizational Code Sharing and Licensing**
 > Even within an InnerSource context, sharing code containing OSS across separate legal entities—such as subsidiaries, affiliates, overseas units, or partner firms—may legally constitute "distribution." What appears to be internal sharing may be construed legally as distribution. When sharing code across organizational boundaries, consult Tax and Legal teams to establish compliant licensing policies.
 
-6. **Uncontrolled Modification**
-    InnerSource is not uncontrolled modification where anyone refactors code at will.
-    Teams consume and modify code based on deliberate project needs through maintainer code reviews.
+6. **Anyone Modifying Anything Freely**
+    InnerSource is not an activity where anyone modifies anything at will.
+    That is, it does not mean "everyone becomes an individual developer inside the organization and builds and changes whatever they like."
+    Each team uses the code based on its own needs and modifies it as necessary.
+    There is no coercion or obligation imposed on other teams.
 
 For case studies and patterns, consult the [InnerSource Commons Foundation](https://innersourcecommons.org/) and [InnerSource Patterns](https://patterns.innersourcecommons.org/).
 

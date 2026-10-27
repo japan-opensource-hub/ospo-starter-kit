@@ -1,8 +1,8 @@
-# Article 7. Releasing Company Works as OSS
+# 【Article 7. Releasing Company Works as OSS】
 
 ## Sample Article
 
-[Article 7. Releasing Company Works as OSS
+【Article 7. Releasing Company Works as OSS
 
 1. When an Employee intends to release software developed in connection with Company duties as new OSS, in addition to complying with Article 5, the Employee must complete application procedures specified separately in advance.
 2. During the application process under the preceding paragraph, the project lead (or responsible Employee) shall comply with the preceding article and verify the following matters, with OSPO providing support as necessary:
@@ -17,7 +17,7 @@
   a. Rights ownership and licensing terms of the contributed work
   b. Compatibility with the overall license of the OSS
   c. Security risks (malware, vulnerabilities), third-party rights infringement, and potential legal violations
-6. When accepting contributions under the preceding paragraph, the OSPO may (in consultation with Legal) advise on the necessity of executing a CLA or other contracts with contributors and propose necessary actions to relevant departments.]
+6. When accepting contributions under the preceding paragraph, the OSPO may (in consultation with Legal) advise on the necessity of executing a CLA or other contracts with contributors and propose necessary actions to relevant departments.】
 
 ## Commentary
 

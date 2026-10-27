@@ -8,7 +8,7 @@ Article 14. Relation to Employment Regulations
 
 ## Commentary
 
-Ambiguity over whether OSS activity constitutes official duties or personal pursuit leads to labor, evaluation, and side-employment disputes. Community activities include tasks not directly tied to immediate assignments, creating working-hour accounting challenges. Contradictions with Employment Regulations create confusion and stall operations, making prior alignment with HR and Legal vital. Without alignment with appraisal systems, OSS activities deteriorate into formality; fostering a safe environment for open source engagement strengthens talent competitiveness.
+Ambiguity over whether OSS activity constitutes official duties or personal pursuit leads to labor, evaluation, and side-employment disputes. Community activities include tasks not directly tied to immediate assignments, creating working-hour accounting challenges. Contradictions with Employment Regulations create confusion and stall operations, making prior alignment with HR and Legal vital. Without alignment with appraisal systems, OSS activities deteriorate into formality; fostering an environment where employees can engage in open source with confidence also strengthens organizational competitiveness.
 
 ## Customization Perspectives and Operational Notes
 

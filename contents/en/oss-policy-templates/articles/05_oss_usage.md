@@ -12,14 +12,14 @@ Article 5. OSS Usage
   d. Potential infringement of third-party rights including patents and intellectual property, export controls, privacy, and compliance with other applicable laws
   e. Impact on Company intellectual property rights, including patents (e.g., necessity of patent applications, potential restrictions on enforcing Company patent rights)
 3. To appropriately manage OSS usage status, Employees shall comply with management methods specified separately, such as maintaining a Software Bill of Materials (SBOM), and supervising departments shall support its execution.
-4. When using OSS, relevant departments shall comply with all terms specified by the applicable license, including copyright notices in product documentation, disclaimer clauses, accompanying or referencing license texts, as well as source code disclosure and modifications tracking where required.
+4. When using OSS, relevant departments shall comply with all terms specified by the applicable license, including copyright notices in product documentation, disclaimer clauses, accompanying or referencing license texts, as well as source code disclosure and indication of modifications where required.
 
 ## Commentary
 
-License non-compliance directly threatens corporate credibility and commercial operations, making pre-use risk evaluation imperative. Management requirements vary based on distribution models (embedded products, cloud services, outsourced development, internal tools), necessitating standardized pre-evaluations. OSS vulnerabilities directly impact customers and service availability, making continuous security checks and visibility via SBOMs essential. Post-distribution obligations (copyright notices, license text inclusion, source code disclosure) are frequently overlooked, requiring structured compliance verification.
+License non-compliance can directly damage corporate credibility and lead to suspended business relationships, making pre-use risk evaluation essential. Management requirements vary based on distribution models (embedded products, cloud services, outsourced development, internal tools), necessitating standardized pre-evaluations. OSS vulnerabilities directly impact customers and service availability, making continuous security checks and visibility via SBOMs essential. Obligations at the time of shipment or distribution (copyright notices, license text inclusion, source code disclosure) are frequently overlooked, requiring structured compliance verification.
 
 ## Customization Perspectives and Operational Notes
 
 Differentiate control levels between "internal tool usage" and "product integration / external distribution (redistribution)"; use this distinction as the foundation for designing your governance system.
 
-- Developing a license classification matrix (e.g., Permitted, Review Required, Prohibited) reduces field ambiguity. Tailor it to account for industry-specific constraints.
+- Developing a license classification matrix (e.g., Permitted, Review Required, Prohibited) reduces uncertainty for development teams. Tailor it to account for industry-specific constraints.

@@ -22,7 +22,7 @@ Open source provides a collaborative foundation where developers worldwide combi
 
 In modern software, open source has established itself as core infrastructure.
 [Representative OSS used internally (e.g., Linux operating systems power the vast majority of cloud infrastructure, Apache HTTP Server and Nginx serve numerous websites across the internet, and PostgreSQL and MySQL manage critical enterprise data globally)].
-Without these technologies, maintaining modern digital infrastructure would be virtually impossible.
+Without these technologies, sustaining today's digital society would be difficult.
 
 ## What Is the Essence of Open Source?
 
@@ -61,7 +61,7 @@ Leveraging these technologies to secure competitive advantage requires deep unde
 
 Beyond accelerating technical innovation, open source democratizes technology access.
 Sharing advanced software globally enables technical advancement transcending geographical and economic constraints.
-By participating in and contributing to this ecosystem, [Company Name] fulfills both engineering growth and corporate responsibility.
+By participating in and contributing to this ecosystem, [Company Name] fulfills both technical growth and social responsibility.
 
 Leveraging open source at [Company Name] is not merely a cost-reduction tactic.
 It represents a strategic investment yielding multifaceted value, including [desired values from OSS adoption (e.g., fostering innovation, upgrading engineering skills, recruiting top talent, establishing technical brand reputation)].

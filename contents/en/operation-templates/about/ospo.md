@@ -46,7 +46,7 @@ For inquiries or assistance regarding the OSPO, use the following contact channe
 
 | Expertise | Name | Contact |
 |---|---|---|
-| License Compliance | [Name] | [Contact] |
+| License Management | [Name] | [Contact] |
 | Security | [Name] | [Contact] |
 | Technical Evaluation | [Name] | [Contact] |
 | Compliance | [Name] | [Contact] |
@@ -107,12 +107,13 @@ Guidance for expanding and refining content to match your company context follow
 In enterprises where open source is not the primary commercial product, standalone full-time OSPO departments are rare.
 Most organizations adopt virtual OSPO teams—where cross-functional staff from R&D, Legal, Compliance, and Security drive open source governance as part of their responsibilities.
 
-Emphasize that the OSPO's role is "building frameworks for autonomous decision-making," avoiding becoming a proxy operational bottleneck. While initial responsibilities often concentrate on key individuals, evolve toward distributed responsibilities as operations mature.
+Make clear that the OSPO's role is "building frameworks that enable autonomous decision-making," and ensure it does not become a department that performs on other departments' behalf what those departments should do themselves. While initial responsibilities often concentrate on a few individuals, aim to distribute roles as operations mature, evolving toward a more sustainable structure.
 
 ■ Managing Contact Information
 
 Use group mailing lists rather than individual personal emails, reviewing rosters periodically.
 Ensure internal portals provide FAQs and OSS request forms. Keep channels open for all employees to join.
+(e.g., link mailing lists to the internal directory, automate membership updates)
 
 ■ Focus Initiatives
 

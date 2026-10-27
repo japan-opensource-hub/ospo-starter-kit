@@ -31,7 +31,7 @@ Adopt and implement items incrementally based on organizational goals and priori
 
 - [ ] Added common internal license inquiries in FAQ format.
 - [ ] Documented historical internal case studies and external legal precedents.
-- [ ] Defined directory structures for managing case studies as ticket volumes grow.
+- [ ] Defined directory structures for managing case studies individually as cases accumulate.
 
 <!--
 ########################################################################################

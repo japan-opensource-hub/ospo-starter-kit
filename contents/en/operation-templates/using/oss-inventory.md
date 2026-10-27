@@ -1,4 +1,4 @@
-# Approved Internal OSS Inventory
+# Internal OSS Inventory
 
 <!--
 ########################################################################################
@@ -13,7 +13,7 @@ Expanding text according to the guide yields an even more practical document.
 ########################################################################################
 -->
 
-## Approved Internal OSS Inventory
+## Internal OSS Inventory
 
 ---
 <!--
@@ -29,7 +29,7 @@ Adopt and implement items incrementally based on organizational goals and priori
 
 ## Customization Checklist
 
-- [ ] Formulated policy on publishing an approved internal catalog.
+- [ ] Formulated policy on publishing an internal OSS inventory.
 - [ ] Established management tools for the inventory (internal wiki, component management system, etc.).
 - [ ] Established maintenance and update workflows for catalog entries.
 - [ ] Provided direct links to internal component management systems if available.
@@ -41,12 +41,13 @@ Customization Guide
 Guidance for expanding and refining content to match your company context following placeholder replacement.
 ########################################################################################
 
-■ Inventory Strategy
+■ Deciding Whether to Build the Inventory
 
-Deciding whether to publish an internal catalog depends on corporate strategy.
-Centralizing an approved inventory strengthens governance and developer velocity, but risks creating a misconception that "unlisted software cannot be used."
-If an internal component registry or SCA platform exists, link directly to it.
-Balance maintenance overhead against governance benefits when finalizing strategy.
+As noted in "Baseline Open Source Adoption Lifecycle" in [Using Open Source](../using/using-oss.md), whether to build this inventory at all is a matter of company policy.
+Managing the inventory internally strengthens governance over OSS usage and improves convenience for developers.
+On the other hand, it risks creating the misconception that "OSS not on the list cannot be used."
+If an internal component registry system already exists, consider pointing readers to that system instead.
+Decide after weighing the maintenance burden against the benefits.
 
 ########################################################################################
 ########################################################################################

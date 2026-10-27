@@ -22,17 +22,17 @@ For high-level discovery guidelines, refer to **[Finding Open Source Software](.
 ## Phased Evaluation Workflow
 
 Execute candidate evaluations across three sequential phases, establishing clear criteria at each stage to determine whether to proceed.
-Set realistic, practical pass criteria rather than seeking mythical "zero-risk" software.
+Because expecting perfect software that satisfies every requirement is unrealistic, set practical, realistic pass criteria at each stage.
 
 ### Phase 1: Initial Screening
 
 Filter candidates rapidly to eliminate clearly unsuitable options early.
-Unlike commercial software evaluation, open source screening accounts for copyleft licensing mechanics and community project governance.
+The same applies to commercial software, but for open source, account for the fact that licenses differ substantially from commercial licenses and that projects are often run by communities.
 Screen candidates against these baseline checks:
 
 **License Verification**
 Inspect `LICENSE` files and `README` documentation to confirm license types and verify compatibility with your deployment model (internal tool, binary distribution, SaaS service).
-For licenses with source disclosure obligations (GPL, AGPL) or dual-licensing terms, consult the OSPO during initial screening.
+For licenses with source disclosure obligations (GPL, AGPL) or software that may require a commercial license, consult the OSPO during initial screening, as verification requirements vary by usage model.
 
 **Activity Baseline**
 Verify whether repositories have commits, issue activity, or merged pull requests within the past six months.
@@ -100,7 +100,9 @@ For mission-critical production workloads, verify whether commercial SLAs, enter
 
 1. **Over-Relying on Popularity Metrics**
 
-    Repository stars and download counts provide useful indicators but do not guarantee security, code quality, or architectural fit. Treat popularity metrics as secondary data points behind technical evaluation.
+    Repository stars and download counts provide useful indicators but do not guarantee security, code quality, or architectural fit.
+    It also helps to understand why a project attracts attention. The fact that many people use it is reassuring, and many issues (including bugs) may already have been discovered.
+    Still, treat popularity metrics as one reference point among many, and give more weight to technical fit and risk evaluation.
 
 2. **Blindly Adopting "Latest" Releases**
 
@@ -108,7 +110,7 @@ For mission-critical production workloads, verify whether commercial SLAs, enter
 
 3. **Feature Bloat**
 
-    Excessive unneeded capabilities increase attack surfaces and learning overhead. Prefer focused, modular libraries.
+    Feature-rich software looks attractive, but excessive unneeded capabilities increase learning and operational overhead. Prefer simple, understandable software with a scope appropriate to your requirements.
 
 4. **Neglecting Continuous Re-Evaluation**
 
@@ -116,7 +118,14 @@ For mission-critical production workloads, verify whether commercial SLAs, enter
 
 ## Documenting and Sharing Evaluations
 
-Document evaluation findings in comparison matrices to capture decision rationales, build institutional knowledge, and streamline future architectural reviews.
+Insights gained through evaluation should serve not only individual learning but the whole team and organization.
+Document evaluation results properly, share them with colleagues, reuse them in similar future projects, and use them to raise the organization's overall evaluation capability.
+
+Recording specific problems and strengths discovered during evaluation provides valuable reference for later decisions.
+Also record improvement points for the evaluation process itself to help the organization evaluate better over time.
+
+When evaluating multiple candidates, create comparison tables or evaluation matrices to make decision rationales explicit.
+This supports accountability for selection decisions and serves as reference material for future reviews.
 
 ---
 <!--
@@ -136,7 +145,7 @@ Adopt and implement items incrementally based on organizational goals and priori
 - [ ] Defined activity thresholds (e.g., "commits within past 6 months").
 - [ ] Created tech-stack-specific evaluation guidelines.
 - [ ] Standardized dependency analysis tools and scanning workflows.
-- [ ] Defined criteria requiring commercial support SLAs based on service criticality.
+- [ ] Clarified criteria for whether commercial support is required, by business criticality.
 - [ ] Established periodic re-evaluation schedules for core dependencies.
 
 <!--
@@ -148,15 +157,30 @@ Guidance for expanding and refining content to match your company context follow
 
 ■ Customizing Screening Criteria
 
-Set practical initial screening rules that filter out high-risk components without stifling development momentum.
+Adjust initial screening criteria to match your company's risk tolerance:
+ * Make license compatibility criteria concrete in line with internal policy.
+ * Define minimum activity thresholds (e.g., "commits within the past 6 months required").
+
+In early stages, prioritize practical criteria that exclude clearly problematic software over perfect criteria.
 
 ■ Addressing Common Pitfalls
 
-Incorporate internal case studies detailing past evaluation errors (such as adopting unstable releases) to build practical team awareness.
+Creating concrete guidelines based on actual internal experience is most effective:
+ * Document lessons learned from past failures.
+ * Clarify version-selection criteria by use case.
+ * Establish periodic re-evaluation schedules and processes.
+
+Also prepare preventive guidance for judgment errors common among new or less experienced developers.
+Combine with "Finding Open Source Software" to provide realistic evaluation criteria.
 
 ■ Security Alignment
 
-Align evaluation guidelines with internal security baseline standards, detailing automated SCA tool usage and vulnerability triage protocols.
+Customize security evaluation to align with internal security policies and development processes:
+ * Create mapping tables to internal security standards.
+ * Document how to use vulnerability monitoring tools.
+ * Provide checklists for assessing project health.
+
+Use this document as a baseline and make it concrete for your company's circumstances.
 
 ########################################################################################
 ########################################################################################

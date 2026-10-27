@@ -8,7 +8,7 @@ Article 4. OSPO
 2. The OSPO shall assume at least the following roles:
   a. Providing advice and information regarding the formulation of OSS usage policies
   b. Providing advice and verification regarding public releases, license selection, and major changes when releasing Company works as OSS
-  [c. Serving as the external point of contact for CLA execution]
+  【c. Serving as the external point of contact for CLA execution】
   d. Providing advice and inter-departmental coordination regarding responses to license violations, data leaks, security incidents, etc.
   e. Formulating and revising internal regulations, guidelines, procedures, etc., related to OSS
   f. Planning, implementing, and promoting educational and awareness-raising activities
@@ -17,7 +17,7 @@ Article 4. OSPO
 
 ## Commentary
 
-OSS sits at the cross-section of legal, security, and engineering disciplines; without a dedicated coordination body, confusion arises. Independent departmental decisions cause inefficiency and inconsistency, delaying initial response during incidents. Declaring the OSPO's establishment acts as the institutional foundation for OSS governance, ensuring organizational sustainability and consistency in OSS activities. Driving cross-company initiatives like SBOM management and tool adoption requires a dedicated entity, and unifying education continually reduces "unintentional violations." Within a three-tier model of Executive, Governance, and Operations, the OSPO plays a pivotal role as the enabler.
+OSS sits at the cross-section of legal, security, and engineering disciplines; without a dedicated coordination body, confusion arises. Independent departmental decisions cause inefficiency and inconsistency, delaying initial response during incidents. Declaring the OSPO's establishment acts as the institutional foundation for OSS governance, ensuring organizational sustainability and consistency in OSS activities. Driving cross-company initiatives like SBOM management and tool adoption requires a dedicated entity, and unifying education continually reduces "unintentional violations." Within a three-tier structure of executive management, a driving function, and development teams, the OSPO plays a central role as the driving function.
 
 ## Customization Perspectives and Operational Notes
 

@@ -82,10 +82,10 @@ Strategic OSS adoption offers management substantial strategic advantages:
 
 3. **Risk Diversification and Long-Term Operational Stability**
 
-    Proprietary software carries vendor lock-in risks—such as abrupt product deprecation or support termination driven by vendor business shifts or bankruptcy.
+    With proprietary software, there is a risk that support for critical software ends abruptly because the vendor changes business strategy or goes out of business.
     With open source, accessible source code allows internal teams to maintain software or identify alternative maintainers as needed.
 
-    Because open source communities operate independently of single-vendor profit motives, sustaining long-term software improvements is simpler, providing vital operational stability for enterprise longevity.
+    Because open source communities are not bound by commercial objectives, it is comparatively easier for them to keep improving software from a long-term perspective. This provides important stability for an organization's ongoing operations.
 
 4. **Recruiting Advantage and Technical Brand Enhancement**
 

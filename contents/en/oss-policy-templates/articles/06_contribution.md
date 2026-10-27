@@ -1,8 +1,8 @@
-# Article 6. Contribution to OSS Projects
+# 【Article 6. Contribution to OSS Projects】
 
 ## Sample Article
 
-[Article 6. Contribution to OSS Projects
+【Article 6. Contribution to OSS Projects
 
 1. When an Employee intends to contribute to a specific OSS Project as part of Company business, in addition to complying with the preceding article, the Employee must obtain prior approval from their supervisor (manager) and follow application procedures specified separately, unless comprehensive prior authorization has been granted.
 2. Upon approval under the preceding paragraph, the Employee shall verify the following matters, with OSPO providing support as necessary:
@@ -12,11 +12,11 @@
   d. Licensing terms and governance defined by the target OSS Project
   e. Compliance with export control regulations
 3. If requested by the OSS Project to execute a CLA, the Employee shall follow prescribed procedures.
-4. The OSPO shall, in consultation with Legal and other relevant departments as needed, summarize considerations for Employees contributing on behalf of the Company to specific OSS Projects and advise relevant departments. Decision-making regarding permission, scope, and conditions for such contributions rests with the contributing department.]
+4. The OSPO shall, in consultation with Legal and other relevant departments as needed, summarize considerations for Employees contributing on behalf of the Company to specific OSS Projects and advise relevant departments. Decision-making regarding permission, scope, and conditions for such contributions rests with the contributing department.】
 
 ## Commentary
 
-Contributions involve intellectual property (patents, copyrights) and confidentiality issues, requiring corporate oversight. Agreements like CLAs/DCOs carry legal obligations; individual actions can bind company rights, making pre-approval mechanisms indispensable. Uncoordinated contributions create inefficiency and exposure, whereas strategic open source contributions yield engineering growth, talent retention, and brand enhancement. Maintaining clear evaluation standards balances corporate interest with community engagement.
+Contributions involve intellectual property (patents, copyrights) and confidentiality issues, requiring corporate oversight. Agreements like CLAs/DCOs carry legal obligations; individual actions can bind company rights, making pre-approval mechanisms indispensable. Without a policy, teams engage in an uncoordinated way, creating inefficiency and confusion; at the same time, OSS contributions bring secondary benefits — improved technical capabilities, talent development, and an enhanced corporate reputation within the community. Maintaining clear evaluation standards balances corporate interest with community engagement.
 
 ## Customization Perspectives and Operational Notes
 
